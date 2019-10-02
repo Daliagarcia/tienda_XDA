@@ -1,0 +1,15 @@
+.button{
+  border: 1px solid $smoky-black;
+  background-color: $white;
+  color: $smoky-black;
+  font-family: $Old-standar-tt;
+  font-weight: $bold;
+  font-size: $medium;
+  margin-top: 1rem;
+  padding: 0.5rem;
+
+  &:hover{
+    color: $granite-gray;
+    border: 1px solid $smoky-black;
+  }
+}

@@ -1,0 +1,57 @@
+.main-photo {
+  background-image: url('../img/main-photo-lg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: none;
+}
+
+.main-photo--sm{
+  display: grid;
+  height: 90vh;
+}
+
+@media only screen and (min-width: 1200px){
+  .main-photo{
+    display: grid;
+  }
+  .main-photo--sm{
+  display: none;
+   }
+}
+
+@media only screen and (min-width: 992px){
+.collapsible label{
+  display: none;
+  }
+}
+
+.newsletter__vertical{
+writing-mode: vertical-lr;
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+background-color: $white;
+color: $smoky-black;
+text-align: center;
+padding: 1rem;
+
+}
+
+.newsletter{
+  background-color: $smoky-black;
+  color: $white;
+  padding: 10%;
+  position: relative;
+
+}
+
+
+.section{
+  padding: 3rem;
+}
+
+p{
+  padding-top: 2rem;
+}
